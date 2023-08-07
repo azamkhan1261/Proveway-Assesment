@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.view-port{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* position: fixed; */
+    /* overflow: hidden; */
+}
+.container{
+    height: 70vh;
+    width: 30vw;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.header{
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.line{
+    background-color: green;
+    height: 0.2px;
+    width: 7vw;
+    display: flex;
+    border: 1px solid green;
+}
+
+.heading{
+    color: green;
+    font-weight: bold;
+}
+
+.box-1{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.box{
+
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    /* border: 1px solid; */
+    /* padding: 7px; */
+    cursor: pointer;
+
+    
+}
+
+
+
+.total-payment{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 7vh;
+    margin: 0;
+}
+
+.shiping{
+    color: rgb(148,201,189);
+}
+
+
+.save{
+    cursor: pointer;
+    margin: 0;
+    border: 1px;
+    border-radius: 4px;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(0,127,97);
+    font-weight: bold;
+    color: #fff;
+}
+
+.right-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pair-dkk{
+    display: flex;
+    flex-direction: column;
+}
+.cbox{
+    margin-right: 10px;
+}
+.size{
+    width: 50px;
+    border: 0.903803px solid #007F61;
+    border-radius: 3.61521px;
+
+}
+.color{
+    width: 60px;
+    border: 0.903803px solid #007F61;
+    border-radius: 3.61521px;
+
+}
+
+
+.expanded{
+
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    padding: 7px;
+   
+}
+.pair-item{
+    display: flex;
+    gap: 5px;
+}
+.lables{
+    display: flex;
+    gap: 35px;
+    margin-left: 20px;
+    color: gray;
+}
+.box-1.selected {
+    background-color: rgb(244,251,249);
+    border-color: green;
+  }
+
+
